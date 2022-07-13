@@ -480,10 +480,10 @@ blockquote.shortcode-blockquote.block-style-widget,
 }
 .share-overlay,
 .overlay,
-#load {
+/* #load {
   background-color: #3b8ced;
   background-color: rgba(59,140,237,0.98);
-}
+} */
 .color-secondary,
 .text-secondary,
 #main .gform_wrapper span.ginput_total,
@@ -5721,7 +5721,7 @@ header:not(.sub-downwards) #main-nav > li.menu-frame-on.act:hover > a,
 #main-nav > li > a span:before,
 #main-nav > li.act > a span:before,
 #main-nav.menu-material-underline-style > li > a:before {
-  background-color: #3b8ced;
+ background: none;
 }
 #main-nav.menu-material-style > li:not(.act):hover > a:before {
   background-color: rgba(59,140,237,0.1);
