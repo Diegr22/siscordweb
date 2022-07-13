@@ -4977,7 +4977,7 @@ body {
 }
 #header {
   background: rgb(197,252,251);
-background: linear-gradient(90deg, rgba(197,252,251,1) 58%, rgba(0,142,255,1) 100%);
+  background: linear-gradient(90deg, rgba(0,142,255,1) 0%, rgba(197,252,251,1) 0%);
   background-size: auto;
   position: relative;
   border: 0px solid;
@@ -5966,7 +5966,7 @@ header:not(.sub-downwards) .menu-material-style .sub-nav li:not(.dt-mega-parent)
 }
 #phantom .ph-wrap {
 /* background: rgb(197,252,251); */
-background: linear-gradient(90deg, rgba(197,252,251,1) 58%, rgba(0,142,255,1) 100%);
+background: linear-gradient(90deg, rgba(0,142,255,1) 0%, rgba(197,252,251,1) 0%);
 min-height: 60px;
 }
 #phantom #main-nav > li,
@@ -6240,6 +6240,9 @@ input[type="submit"],
 .btn-material input[type="submit"]:hover,
 .btn-material .nsu-submit:hover {
   background-color: #247eeb;
+}
+::-webkit-scrollbar{
+    display: none;
 }
 .filter a:after,
 .scroll-top {
