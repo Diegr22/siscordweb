@@ -4550,14 +4550,15 @@ body {
 #bottom-bar {
   font-size: 12px;
   line-height: 21px;
-  color: #888888;
+  color: #ffffff;
+  
 }
 #bottom-bar.solid-bg {
   background: #3d80dc none repeat center top;
 }
 .wf-container-bottom,
 #bottom-bar.full-width-line {
-  border-top: 1px solid rgba(136,136,136,0.15);
+  border-top: 1px solid white;
 }
 #bottom-bar .mini-nav li:before {
   border-left-color: #38393a;
