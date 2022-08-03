@@ -4174,6 +4174,8 @@ div.mc4wp-form button[type="submit"],
   -o-border-radius: 7px;
   border-radius: 7px;
 }
+
+
 html,
 body,
 body.page,
@@ -4181,6 +4183,7 @@ body.page,
   font: normal normal normal 14px / 24px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
   word-spacing: normal;
   color: #888888;
+  
 }
 .gform_wrapper .top_label .gfield_label,
 input[type="text"],
